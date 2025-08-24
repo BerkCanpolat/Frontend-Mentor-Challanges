@@ -67,5 +67,42 @@ main {
     font-size: 14px;
     color: gainsboro;
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.content-buttons .buttons-social a{
+    padding: .9rem 2rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--grey-700);
+    color: var(--white);
+
+    transition: all .5s ease;
+}
+
+.content-buttons .buttons-social a:hover {
+    background-color: var(--green);
+    color: black;
+    
+}
+
+.content-buttons .buttons-social .active {
+    background-color: var(--green);
+    color: black;
+}
+
+.content-buttons .buttons-social .active:hover {
+    background-color: var(--grey-700);
+    color: var(--white);
+}
+
+.content-buttons .buttons-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
 }
