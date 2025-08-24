@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--grey-900);
+}
+
+main {
+    /* max-width: 500px; */
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container {
+    background-color: var(--grey-800);
+    width: 19rem;
+    border-radius: .5rem;
+    padding: 2rem 2rem;
+    /* margin: 0 auto; */
+}
+
+.content-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-img img {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.content-info h2 {
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.content-info .info-p1 {
+    font-size: 14px;
+    color: var(--green);
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.content-info .info-p2 {
+    font-size: 14px;
+    color: gainsboro;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
